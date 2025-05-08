@@ -13,7 +13,7 @@ function typeWriterEffect(element, text, speed = 100) {
   }
   window.addEventListener("load", () => {
     const nameEl = document.querySelector("h1");
-    if (nameEl) typeWriterEffect(nameEl, "Your Name");
+    if (nameEl) typeWriterEffect(nameEl, "Subham kumar");
   });
   
   // 2. Fetch Latest GitHub Repos
