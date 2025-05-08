@@ -17,7 +17,7 @@ function typeWriterEffect(element, text, speed = 100) {
   });
   
   // 2. Fetch Latest GitHub Repos
-  fetch("https://api.github.com/users/YOUR_GITHUB_USERNAME/repos?sort=updated")
+  fetch("https://api.github.com/users/phenomenalsam/repos?sort=updated")
     .then(res => res.json())
     .then(data => {
       const ul = document.createElement("ul");
